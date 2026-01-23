@@ -1,0 +1,60 @@
+{
+  "name": "@dial/frontend-template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "nx dev ai-dial-app",
+    "build": "nx build ai-dial-app",
+    "start": "nx start ai-dial-app",
+    "lint": "nx lint ai-dial-app",
+    "test": "nx test ai-dial-app",
+    "prepare": "husky",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "dependencies": {
+    "@epam/ai-dial-ui-kit": "^0.6.0-rc.97",
+    "@tabler/icons-react": "^3.28.1",
+    "classnames": "^2.5.1",
+    "next": "^15.1.4",
+    "next-auth": "^4.24.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@next/eslint-plugin-next": "^15.1.4",
+    "@nx/eslint": "^20.4.2",
+    "@nx/eslint-plugin": "^20.4.2",
+    "@nx/next": "^20.4.2",
+    "@nx/vite": "^20.4.2",
+    "@svgr/webpack": "^8.1.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.4",
+    "@types/react-dom": "^19.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.18.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.2.2",
+    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "jsdom": "^26.0.0",
+    "lint-staged": "^15.3.0",
+    "nx": "^20.4.2",
+    "postcss": "^8.5.1",
+    "prettier": "^3.4.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.2",
+    "vitest-fetch-mock": "^0.4.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
